@@ -6,9 +6,10 @@ pipeline {
     }
     
     stages {
-        stage('Building Release') {
+        stage('Deployment') {
             steps {
-                sh 'ls'
+                sh 'cp ./* $XFPATH/src/addons/jenkins/test/'
+                sh 'php $XFPATH/cmd.php xf:addon-upgrade jenkins/test'
             }
         }
     }
