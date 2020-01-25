@@ -12,5 +12,15 @@ pipeline {
             }
         }
     }
-
+    post {
+        success {
+          echo 'Client is Deployed'
+        }
+        failure {
+          echo 'This will run only if failed'
+        }
+        changed {
+          echo 'Client Status of Build changed'
+        }
+    }
 }
