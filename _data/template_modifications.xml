@@ -2,7 +2,7 @@
 <template_modifications>
   <modification type="public" template="forum_list" modification_key="jenkins_tests" description="Tests for jenkins" execution_order="10" enabled="1" action="preg_replace">
     <find><![CDATA[#.*#ms]]></find>
-    <replace><![CDATA[<h1>Hallo Jenkins</h1>
+    <replace><![CDATA[<h1>Hallo Welt und Jenkins</h1>
 $0]]></replace>
   </modification>
 </template_modifications>
