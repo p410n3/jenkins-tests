@@ -5,5 +5,5 @@
     "enabled": true,
     "action": "preg_replace",
     "find": "#.*#ms",
-    "replace": "<h1>Hallo Jenkins</h1>\n$0"
+    "replace": "<h1>Hallo Welt und Jenkins</h1>\n$0"
 }
