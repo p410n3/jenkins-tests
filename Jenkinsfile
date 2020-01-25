@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Building Release') {
             steps {
-                sh 'ls /xd'
+                sh 'ls'
             }
         }
     }
