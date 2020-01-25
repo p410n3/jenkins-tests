@@ -2,7 +2,7 @@
     "legacy_addon_id": "",
     "title": "Jenkins",
     "description": "Basic Jenkins tests",
-    "version_id": 5,
+    "version_id": 6,
     "version_string": "0.0.1",
     "dev": "@p410n3",
     "dev_url": "https://github.com/p410n3",
