@@ -1,7 +1,7 @@
 pipeline {
     agent any
 
-    enviroment {
+    environment {
         XFPATH = '/var/www/xf'
     }
     
